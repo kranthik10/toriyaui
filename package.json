@@ -1,0 +1,13 @@
+{
+  "name": "toriui",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "cli": "node packages/cli/src/index.js",
+    "format": "echo 'add formatter later'",
+    "lint": "echo 'add lint later'"
+  }
+}

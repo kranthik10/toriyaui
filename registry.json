@@ -1,0 +1,80 @@
+[
+  {
+    "name": "button",
+    "type": "components:ui",
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      {
+        "path": "templates/components/button.tsx",
+        "target": "components/ui/button.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "name": "input",
+    "type": "components:ui",
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      {
+        "path": "templates/components/input.tsx",
+        "target": "components/ui/input.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "name": "card",
+    "type": "components:ui",
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      {
+        "path": "templates/components/card.tsx",
+        "target": "components/ui/card.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "name": "badge",
+    "type": "components:ui",
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      {
+        "path": "templates/components/badge.tsx",
+        "target": "components/ui/badge.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "name": "avatar",
+    "type": "components:ui",
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      {
+        "path": "templates/components/avatar.tsx",
+        "target": "components/ui/avatar.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "name": "tabs",
+    "type": "components:ui",
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      {
+        "path": "templates/components/tabs.tsx",
+        "target": "components/ui/tabs.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  }
+]
