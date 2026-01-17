@@ -49,7 +49,7 @@ function fetchUrl(url) {
 
 async function loadRegistry() {
   try {
-    const url = `${BASE_URL}/registry.json`;
+    const url = `${BASE_URL}/registry.json?t=${Date.now()}`;
     log(`Fetching registry from ${url}...`);
     const data = await fetchUrl(url);
     return JSON.parse(data);
