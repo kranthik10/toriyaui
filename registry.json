@@ -91,5 +91,18 @@
         "type": "registry:ui"
       }
     ]
+  },
+  {
+    "name": "dialog",
+    "type": "components:ui",
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      {
+        "path": "templates/components/dialog.tsx",
+        "target": "components/ui/dialog.tsx",
+        "type": "registry:ui"
+      }
+    ]
   }
 ]

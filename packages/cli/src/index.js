@@ -203,14 +203,9 @@ async function main() {
           error("Please specify a component name");
         }
         const components = process.argv.slice(3);
-        if (components.length === 0 && arg) {
-          await add(cwd, arg);
-        } else {
-          // Serial execution to avoid race conditions on dependencies
-          await add(cwd, arg);
-          for (const c of components) {
-            await add(cwd, c);
-          }
+        // Serial execution to avoid race conditions on dependencies
+        for (const c of components) {
+          await add(cwd, c);
         }
         break;
       case "list":
