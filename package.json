@@ -1,5 +1,5 @@
 {
-  "name": "toriui",
+  "name": "toriya",
   "private": true,
   "workspaces": [
     "packages/*",

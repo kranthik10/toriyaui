@@ -6,7 +6,7 @@ const https = require("https");
 const { execSync } = require("child_process");
 
 // TODO: UPDATE THIS URL TO YOUR REPO
-const BASE_URL = "https://raw.githubusercontent.com/kranthik10/toriui/main";
+const BASE_URL = "https://raw.githubusercontent.com/kranthik10/toriyaui/main";
 
 function log(message) {
   console.log(message);
@@ -218,9 +218,9 @@ async function main() {
         break;
       default:
         log("Usage:");
-        log("  npx toriui init");
-        log("  npx toriui add <component>");
-        log("  npx toriui list");
+        log("  npx toriya init");
+        log("  npx toriya add <component>");
+        log("  npx toriya list");
         break;
     }
   } catch (e) {

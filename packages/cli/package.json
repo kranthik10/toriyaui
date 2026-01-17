@@ -1,8 +1,10 @@
 {
-  "name": "@toriui/cli",
-  "version": "0.1.0",
-  "private": true,
+  "name": "toriya",
+  "version": "0.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": {
-    "toriui": "src/index.js"
+    "toriya": "src/index.js"
   }
 }
