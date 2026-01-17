@@ -76,5 +76,20 @@
         "type": "registry:ui"
       }
     ]
+  },
+  {
+    "name": "sheet",
+    "type": "components:ui",
+    "dependencies": [
+      "react-native-safe-area-context"
+    ],
+    "registryDependencies": [],
+    "files": [
+      {
+        "path": "templates/components/sheet.tsx",
+        "target": "components/ui/sheet.tsx",
+        "type": "registry:ui"
+      }
+    ]
   }
 ]

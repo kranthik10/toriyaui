@@ -1,2 +1,2 @@
-- ToriUI is a UI component library for Expo (React Native).
+- ToriyaUI is a UI component library for Expo (React Native).
 - The goal is to make it the “shadcn” for mobile app development: composable, customizable, and developer-friendly.
