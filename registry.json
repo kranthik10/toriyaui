@@ -104,5 +104,146 @@
         "type": "registry:ui"
       }
     ]
+  },
+  {
+    "name": "alert",
+    "type": "components:ui",
+    "dependencies": [
+      "lucide-react-native",
+      "class-variance-authority"
+    ],
+    "registryDependencies": [],
+    "files": [
+      {
+        "path": "templates/components/alert.tsx",
+        "target": "components/ui/alert.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "name": "checkbox",
+    "type": "components:ui",
+    "dependencies": [
+      "lucide-react-native"
+    ],
+    "registryDependencies": [],
+    "files": [
+      {
+        "path": "templates/components/checkbox.tsx",
+        "target": "components/ui/checkbox.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "name": "label",
+    "type": "components:ui",
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      {
+        "path": "templates/components/label.tsx",
+        "target": "components/ui/label.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "name": "radio-group",
+    "type": "components:ui",
+    "dependencies": [
+      "lucide-react-native"
+    ],
+    "registryDependencies": [],
+    "files": [
+      {
+        "path": "templates/components/radio-group.tsx",
+        "target": "components/ui/radio-group.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "name": "separator",
+    "type": "components:ui",
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      {
+        "path": "templates/components/separator.tsx",
+        "target": "components/ui/separator.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "name": "skeleton",
+    "type": "components:ui",
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      {
+        "path": "templates/components/skeleton.tsx",
+        "target": "components/ui/skeleton.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "name": "switch",
+    "type": "components:ui",
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      {
+        "path": "templates/components/switch.tsx",
+        "target": "components/ui/switch.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "name": "textarea",
+    "type": "components:ui",
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      {
+        "path": "templates/components/textarea.tsx",
+        "target": "components/ui/textarea.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "name": "slider",
+    "type": "components:ui",
+    "dependencies": [
+      "@react-native-community/slider"
+    ],
+    "registryDependencies": [],
+    "files": [
+      {
+        "path": "templates/components/slider.tsx",
+        "target": "components/ui/slider.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "name": "select",
+    "type": "components:ui",
+    "dependencies": [
+      "lucide-react-native"
+    ],
+    "registryDependencies": [],
+    "files": [
+      {
+        "path": "templates/components/select.tsx",
+        "target": "components/ui/select.tsx",
+        "type": "registry:ui"
+      }
+    ]
   }
 ]
